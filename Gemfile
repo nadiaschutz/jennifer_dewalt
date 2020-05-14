@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'rails', '5.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,7 +11,7 @@ gem 'ejs'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 5.0.5'
   # gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -20,8 +20,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
-gem 'jquery-ui-rails'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'jquery-ui-rails', '>= 4.1.2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -32,10 +32,10 @@ gem 'jbuilder'
 gem 'oj'
 
 # Use unicorn as the app server
-gem 'unicorn'
+gem 'unicorn', '>= 4.9.0'
 gem 'redis'
-gem 'resque', :require => "resque/server"
-gem 'resque-lock-timeout'
+gem 'resque', '>= 1.25.2', :require => "resque/server"
+gem 'resque-lock-timeout', '>= 0.4.4'
 
 # Deploy with Capistrano
 gem 'capistrano', "2.14.2"
@@ -44,8 +44,8 @@ gem 'capistrano', "2.14.2"
 # gem 'debugger'
 
 gem "paperclip", "~> 3.0"
-gem "devise", "2.2.4"
-gem "omniauth"
+gem "devise", "4.0.0"
+gem "omniauth", ">= 1.3.1"
 gem "twitter", "4.8.1"
 gem "instagram"
 gem "flickraw", "0.9.8"
