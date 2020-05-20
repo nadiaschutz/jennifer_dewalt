@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'rails', '5.2.4.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,7 +11,7 @@ gem 'ejs'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 5.0.5'
   # gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -20,14 +20,14 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
-gem 'jquery-ui-rails'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'jquery-ui-rails', '>= 4.1.2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.6.4'
 
 gem 'oj'
 
@@ -43,8 +43,8 @@ gem 'capistrano', "2.14.2"
 # To use debugger
 # gem 'debugger'
 
-gem "paperclip", "~> 3.0"
-gem "devise", "2.2.4"
+gem "paperclip", "~> 3.5", ">= 3.5.4"
+gem "devise", "4.4.2"
 gem "omniauth"
 gem "twitter", "4.8.1"
 gem "instagram"
