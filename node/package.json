@@ -2,7 +2,7 @@
   "dependencies": {
     "canvas": "1.2.3",
     "cron": "*",
-    "ejs": "0.8.4",
+    "ejs": "3.1.6",
     "express": "3.3.8",
     "ntwitter": "*",
     "sanitizer": "0.0.15",
