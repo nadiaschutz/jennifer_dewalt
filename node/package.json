@@ -6,7 +6,7 @@
     "express": "3.3.8",
     "ntwitter": "*",
     "sanitizer": "0.0.15",
-    "socket.io": "0.9.12",
+    "socket.io": "1.0.1",
     "twit": "^1.1.18",
     "underscore": "*"
   }
