@@ -45,7 +45,7 @@ gem 'capistrano', "2.14.2"
 
 gem "paperclip", "~> 3.0"
 gem "devise", "2.2.4"
-gem "omniauth"
+gem "omniauth", ">= 2.0.0"
 gem "twitter", "4.8.1"
 gem "instagram"
 gem "flickraw", "0.9.8"
