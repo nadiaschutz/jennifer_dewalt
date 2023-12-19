@@ -34,7 +34,7 @@ gem 'oj'
 # Use unicorn as the app server
 gem 'unicorn'
 gem 'redis'
-gem 'resque', :require => "resque/server"
+gem 'resque', '>= 2.6.0', :require => "resque/server"
 gem 'resque-lock-timeout'
 
 # Deploy with Capistrano
