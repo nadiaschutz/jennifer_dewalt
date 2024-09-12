@@ -3,7 +3,7 @@
     "canvas": "1.2.3",
     "cron": "*",
     "ejs": "0.8.4",
-    "express": "3.3.8",
+    "express": "4.20.0",
     "ntwitter": "*",
     "sanitizer": "0.0.15",
     "socket.io": "0.9.12",
